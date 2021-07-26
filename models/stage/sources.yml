@@ -1,0 +1,40 @@
+version: 2
+
+sources:
+  - name: sales
+    description: Essa é a fonte de dados do nosso ERP, criada através do Airbyte
+    tables:
+      - name: countryregioncurrency
+        description: Moeda por país.
+      - name: credicard
+        description: Cartões de crédito.
+      - name: currency
+        description: Moedas
+      - name: currencyrate
+        description: Taxas de câmbio das Moedas
+      - name: customer
+        description: Clientes
+      - name: personcreditcard
+        description: Cartão de crédito por entidade
+      - name: salesorderdetail
+        description: Detalhes dos pedidos
+      - name: salesorderheader
+        description: Informações dos pedidos
+      - name: salesorderheadersalesreason
+        description: Tabela pedidos com motivo pedidos  
+      - name: salesperson
+        description: Vendas por entidade
+      - name: salespersonquotahistory
+        description: Histórico de vendas por entidade
+      - name: salesterritory
+        description: vendas por território
+      - name: salestaxrate
+        description: Imposto das vendas
+      - name: salesterritoryhistory
+        description: Histórico de vendas por território e entidade
+      - name: specialoffer
+        description: Oferta especiais
+      - name: specialofferproduct
+        description: Oferta especial de produtos
+      - name: store
+        description: Loja
