@@ -1,6 +1,6 @@
 {{ config(materialized='table') }}
 
-with stg_currency as (
+with stg_currencyrate as (
     select  averagerate	as taxa_media,		
             endofdayrate as taxa_fim_do_dia,		
             modifieddate as data_moficicacao,		
@@ -12,4 +12,4 @@ with stg_currency as (
     from {{ source('sales', 'currencyrate' )}}
 )
 
-select * from stg_currency
+select * from stg_currencyrate
