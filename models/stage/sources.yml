@@ -26,6 +26,8 @@ sources:
         description: Vendas por entidade
       - name: salespersonquotahistory
         description: Histórico de vendas por entidade
+      - name: salesreason
+        description: Motivos das vendas
       - name: salesterritory
         description: vendas por território
       - name: salestaxrate
