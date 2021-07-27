@@ -6,7 +6,7 @@ sources:
     tables:
       - name: countryregioncurrency
         description: Moeda por país.
-      - name: credicard
+      - name: creditcard
         description: Cartões de crédito.
       - name: currency
         description: Moedas
