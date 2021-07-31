@@ -12,16 +12,13 @@ stg_salesorderheadersalesreason as (
 
 transformed as(
     select 
-        data_modificacao,		
-        id_pedido_vendas,		
-        id_motivo_vendas,
+        sosr.id_pedido_vendas,
+        sosr.id_motivo_venda
         nome, 		
-        tipo_motivo, 		
-        data_modificacao, 		
-        id_motivo_venda
+        tipo_motivo
     from  stg_salesorderheadersalesreason as sosr
     left join stg_salesreason as sr
-    on (sosr.id_motivo_venda = sosr.id_motivo_venda)
+    on (sosr.id_motivo_venda = sr.id_motivo_venda)
 )
 
 select * from transformed
