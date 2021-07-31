@@ -11,7 +11,7 @@ transformed as(
             id_pessoa,		
             id_cliente,		
             id_territorio,		
-            PARSE_TIMESTAMP('%Y-%m-%dT%H:%M:%SZ', data_modificacao) AS data_modificacao
+            EXTRACT(DATE FROM (PARSE_TIMESTAMP('%Y-%m-%dT%H:%M:%SZ', data_modificacao))) AS data_modificacao
     from staging
 )
 
