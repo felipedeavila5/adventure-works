@@ -25,7 +25,7 @@ with stg_salesorderheader as (
         onlineorderflag	as sinalizador_pedido_online,		
         shiptoaddressid as id_endereco_destino,		
         purchaseordernumber as numero_pedido_compra,		
-        creditcardapprovalcode as id_cartao_de_credito_aprovado,
+        creditcardapprovalcode as id_cartao_de_credito_aprovado
         
     from {{ source('sales', 'salesorderheader' )}}
 )
