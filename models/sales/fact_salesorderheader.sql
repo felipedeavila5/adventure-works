@@ -23,7 +23,6 @@ transformed as(
         soh.id_cliente,		
         soh.id_territorio,		
         soh.id_cartao_de_credito,		
-        soh.id_pedido_vendas,		
         soh.id_metodo_transporte,
         soh.id_pessoa_vendas,	
         soh.id_taxa_moeda,
