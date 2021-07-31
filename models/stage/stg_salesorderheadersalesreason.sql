@@ -4,7 +4,7 @@ with stg_salesorderheadersalesreason as (
     select  
         modifieddate as data_modificacao,		
         salesorderid as id_pedido_vendas,		
-        salesreasonid as id_motivo_vendas
+        salesreasonid as id_motivo_venda
         
     from {{ source('sales', 'salesorderheadersalesreason' )}}
 )
