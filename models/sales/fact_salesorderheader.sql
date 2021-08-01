@@ -36,7 +36,8 @@ transformed as(
         sod.id_oferta_especial,		
         sod.desconto_preco_unitario,		
         sod.id_pedido_detalhe_vendas,
-        sod.numero_rastreamento_operadora	
+        sod.numero_rastreamento_operadora,
+        sod.total_negociado	
         
     from  stg_salesorderdetail as sod
     left join stg_salesorderheader as soh
