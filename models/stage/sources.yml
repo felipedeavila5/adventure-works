@@ -44,3 +44,7 @@ sources:
     tables:
       - name: product
         description: Informações dos Produtos 
+  - name: person
+    tables:
+      - name: person
+        description: Entidade Pessoa 
