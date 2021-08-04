@@ -13,7 +13,7 @@ stg_salesorderheadersalesreason as (
 transformed as(
     select 
         sosr.id_pedido_vendas,
-        sosr.id_motivo_venda
+        sosr.id_motivo_venda,
         nome, 		
         tipo_motivo
     from  stg_salesorderheadersalesreason as sosr
