@@ -5,9 +5,9 @@ with stg_stateprovince as (
         name as nome,
         territoryid as id_territorio,
         modifieddate as data_modificacao,
-        stateprovinceid as id_provincia,
+        stateprovinceid as id_estado_provincia,
         countryregioncode as id_pais,
-        stateprovincecode as sigla_provincia,
+        stateprovincecode as sigla_estado_provincia,
     from {{ source('person', 'stateprovince' )}}
 )
 

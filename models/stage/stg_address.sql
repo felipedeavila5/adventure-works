@@ -9,7 +9,7 @@ with stg_address as (
         addressline2 as endereco2,	
         modifieddate as data_modificacao,	
         spatiallocation as coordenadas,	
-        stateprovinceid	as id_provincia	
+        stateprovinceid	as id_estado_provincia	
     from {{ source('person', 'address' )}}
 )
 

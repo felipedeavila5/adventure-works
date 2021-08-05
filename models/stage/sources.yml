@@ -52,3 +52,5 @@ sources:
         description: Informações dos Endereços 
       - name: stateprovince
         description: Informações sobre Estado ou Província
+      - name: countryregion
+        description: Informações sobre Países
