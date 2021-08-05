@@ -50,3 +50,5 @@ sources:
         description: Entidade Pessoa 
       - name: address
         description: Informações dos Endereços 
+      - name: stateprovince
+        description: Informações sobre Estado ou Província
