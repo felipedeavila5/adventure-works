@@ -48,3 +48,5 @@ sources:
     tables:
       - name: person
         description: Entidade Pessoa 
+      - name: address
+        description: Informações dos Endereços 
