@@ -22,6 +22,6 @@ da Adventure Works
 ### Links Importantes:
 
 - Diagrama do Banco Relacional [PDF](https://github.com/felipedeavila5/adventure-works/blob/master/documents/db_schema.pdf)
-- Diagrama do Data Warehouse [PDF](https://github.com/felipedeavila5/adventure-works/blob/master/documents/dW_schema.pdf)
+- Diagrama do Data Warehouse [PDF](https://github.com/felipedeavila5/adventure-works/blob/master/documents/dw_schema.pdf)
 - BI com os Indicadores [Metabase](https://project-adventure-works.herokuapp.com/public/dashboard/f0944f0a-3b96-491f-b62e-a5097add909e). O link pode demorar um pouco para abrir.
 
