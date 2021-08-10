@@ -1,0 +1,93 @@
+version: 2
+
+models:
+  - name: dim_address
+    columns:
+      - name: cidade
+      - name: id_endereco
+        tests:
+          - unique
+          - not_null
+      - name: id_estado_provincia
+        tests:
+          - not_null
+      - name: id_territorio
+        tests:
+          - not_null
+      - name: id_pais
+          - not_null
+      - name: sigla_estado_provincia
+          - not_null
+  - name: dim_credicard
+    columns:
+      - name: tipo_cartao
+        tests:
+          - not_null
+      - name: id_cartao_de_credito
+        tests:
+          - unique
+          - not_null
+      - name: data_modificacao
+        tests:
+          - not_null
+  
+  - name: dim_customer
+    columns:
+      - name: id_cliente
+        tests:
+          - not_null
+          - unique
+      - name: nome_completo
+        tests:
+        - not_null
+
+  - name: dim_product
+    columns:
+      - name: id_produto
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_salesorderheadersalesreason
+    columns:
+      - name: id_pedido_vendas
+        tests:
+          - not_null
+      - name: id_motivo_venda
+        tests:
+          - not_null
+  - name: fact_salesorderheader
+    columns:
+      - name: id_cliente
+        tests:
+          - not_null
+      - name: id_territorio
+        tests:
+          - not_null
+      - name: id_metodo_transporte
+        tests:
+          - not_null
+      - name: id_pessoa_vendas
+        tests:
+          - not_null
+      - name: id_taxa_moeda
+        tests:
+          - not_null
+      - name: id_endereco_destino
+        tests:
+          - not_null
+      - name: id_produto
+        tests:
+          - not_null
+      - name: preco_unitario
+        tests:
+          - not_null
+      - name: id_oferta_especial
+        tests:
+          - not_null
+      - name: id_pedido_detalhe_vendas
+        tests:
+          - not_null
+      - name: id_motivo_venda
+        tests:
+          - not_null
