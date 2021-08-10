@@ -18,10 +18,15 @@ transformação dos dados.  Por fim, foi utilizado o
 Metabase para acessar os dados e criar indicadores de interesse
 da Adventure Works
 
+### Video Apresentação
+[![Clique aqui para ver o vídeo](http://img.youtube.com/vi/F6YXZBHtalI/0.jpg)](http://www.youtube.com/watch?v=F6YXZBHtalI)
+
 
 ### Links Importantes:
 
+- Planejamento [PDF](https://github.com/felipedeavila5/adventure-works/blob/master/documents/project_plan.pdf)
 - Diagrama do Banco Relacional [PDF](https://github.com/felipedeavila5/adventure-works/blob/master/documents/db_schema.pdf)
 - Diagrama do Data Warehouse [PDF](https://github.com/felipedeavila5/adventure-works/blob/master/documents/dw_schema.pdf)
-- BI com os Indicadores [Metabase](https://project-adventure-works.herokuapp.com/public/dashboard/f0944f0a-3b96-491f-b62e-a5097add909e). O link pode demorar um pouco para abrir.
+- BI com os Indicadores [Metabase](https://project-adventure-works.herokuapp.com/public/dashboard/f0944f0a-3b96-491f-b62e-a5097add909e). *O link pode demorar um pouco para abrir*.
+- Apresentação [Youtube](https://www.youtube.com/watch?v=F6YXZBHtalI)
 
