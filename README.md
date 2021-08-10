@@ -1,3 +1,6 @@
+![alt text](https://github.com/felipedeavila5/adventure-works/blob/master/images/stack.png?raw=true)
+
+
 Projeto Final do Curso de Analytics Engineer da Indicium Academy 
 ### Adventure Works
 
@@ -18,5 +21,5 @@ da Adventure Works
 
 ### Links Importantes:
 
-- BI com os Indicadores [Metabase](https://project-adventure-works.herokuapp.com/public/dashboard/f0944f0a-3b96-491f-b62e-a5097add909e) O link pode demorar um pouco para abrir.
+- BI com os Indicadores [Metabase](https://project-adventure-works.herokuapp.com/public/dashboard/f0944f0a-3b96-491f-b62e-a5097add909e). O link pode demorar um pouco para abrir.
 
