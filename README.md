@@ -18,9 +18,6 @@ transformação dos dados.  Por fim, foi utilizado o
 Metabase para acessar os dados e criar indicadores de interesse
 da Adventure Works
 
-### Video Apresentação
-[![Clique aqui para ver o vídeo](http://img.youtube.com/vi/F6YXZBHtalI/0.jpg)](http://www.youtube.com/watch?v=F6YXZBHtalI)
-
 
 ### Links Importantes:
 
